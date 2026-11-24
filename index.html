@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portafolio de Evidencias | Kevin David González Franco</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--tx:#1b1f2a;--mu:#5b6275;--ac:#3b5bdb;--bd:#e3e6ef;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12141b;--card:#1b1e28;--tx:#eceef5;--mu:#9aa1b5;--ac:#7c93ff;--bd:#2a2e3d;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+.wrap{max-width:900px;margin:0 auto;padding:24px 16px 48px}
+header{display:flex;gap:24px;align-items:center;flex-wrap:wrap;background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:24px}
+.foto{width:140px;height:140px;border-radius:50%;background:var(--bd);display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:700;color:var(--mu);overflow:hidden;cursor:pointer;flex-shrink:0;border:3px solid var(--ac)}
+.foto img{width:100%;height:100%;object-fit:cover}
+h1{margin:0;font-size:1.8rem}
+.rol{color:var(--ac);font-weight:600;margin:2px 0 10px}
+.datos{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:4px 16px;color:var(--mu);font-size:.95rem}
+.datos b{color:var(--tx)}
+.datos a,.proy a{color:var(--ac);text-decoration:none;word-break:break-all}
+section{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:20px 24px;margin-top:16px}
+h2{margin:0 0 12px;font-size:1.15rem;color:var(--ac)}
+p{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--bg);border:1px solid var(--bd);border-radius:999px;padding:4px 12px;font-size:.9rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.proy{border:1px solid var(--bd);border-radius:12px;padding:16px;background:var(--bg)}
+.proy h3{margin:0 0 6px;font-size:1.05rem}
+.proy p{margin-bottom:10px;color:var(--mu);font-size:.93rem}
+.proy .ver{font-weight:600}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <label class="foto" id="foto" title="Clic para subir tu fotografía"><span id="ini">KG</span><input type="file" accept="image/*" id="inp" hidden></label>
+  <div>
+    <h1>Kevin David González Franco</h1>
+    <div class="rol">Desarrollador de Software</div>
+    <div class="datos">
+      <div><b>Edad:</b> 21 años</div>
+      <div><b>Ubicación:</b> Nicolás Romero, México</div>
+      <div><b>Correo:</b> <a href="mailto:23302042@utfv.edu.mx">23302042@utfv.edu.mx</a></div>
+      <div><b>Teléfono:</b> 722 513 2908</div>
+      <div><b>GitHub:</b> <a href="https://github.com/KevinGF130305" target="_blank" rel="noopener">github.com/KevinGF130305</a></div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <h2>Perfil profesional</h2>
+  <p>Soy estudiante de Ingeniería en Desarrollo de Software, apasionado por crear aplicaciones web funcionales y bien organizadas. Tengo experiencia desarrollando sistemas con JavaScript, Python y bases de datos como MySQL, y he trabajado en proyectos en equipo usando Git y GitHub. Me caracterizo por ser responsable, aprender rápido y cuidar la calidad del código. Busco una oportunidad para aplicar mis conocimientos, crecer profesionalmente y aportar soluciones útiles a un equipo de desarrollo.</p>
+</section>
+
+<section>
+  <h2>Estudios</h2>
+  <p><b>Ingeniería en Gestión de Software</b></p>
+</section>
+
+<section>
+  <h2>Proyectos</h2>
+  <div class="grid">
+    <div class="proy">
+      <h3>Tienda de computadoras</h3>
+      <p><b>Tecnologías:</b> React, Node.js, MySQL</p>
+      <a class="ver" href="https://github.com/Sacho20/computer-house" target="_blank" rel="noopener">Ver proyecto en GitHub →</a>
+    </div>
+    <div class="proy">
+      <h3>App Delivery</h3>
+      <p><b>Tecnologías:</b> Python, Django, PostgreSQL</p>
+      <a class="ver" href="https://github.com/CristianOG1/delivery-app" target="_blank" rel="noopener">Ver proyecto en GitHub →</a>
+    </div>
+    <div class="proy">
+      <h3>Gestión de tienda</h3>
+      <p><b>Tecnologías:</b> Java, Spring, MongoDB</p>
+      <a class="ver" href="https://github.com/CristianOG1/gestion-proyecto-tienda" target="_blank" rel="noopener">Ver proyecto en GitHub →</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Lenguajes de programación</h2>
+  <div class="chips"><span class="chip">JavaScript</span><span class="chip">Python</span><span class="chip">Java</span><span class="chip">C#</span><span class="chip">PHP</span></div>
+</section>
+
+<section>
+  <h2>Bases de datos</h2>
+  <div class="chips"><span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span><span class="chip">SQL Server</span></div>
+</section>
+
+<section>
+  <h2>Tecnologías y plataformas</h2>
+  <div class="chips"><span class="chip">Git y GitHub</span><span class="chip">VS Code</span><span class="chip">HTML y CSS</span><span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Docker</span><span class="chip">AWS</span><span class="chip">Postman</span></div>
+</section>
+</div>
+<script>
+document.getElementById('inp').addEventListener('change',function(e){
+  var f=e.target.files[0]; if(!f) return;
+  var r=new FileReader();
+  r.onload=function(){
+    var box=document.getElementById('foto');
+    var old=box.querySelector('img'); if(old) old.remove();
+    document.getElementById('ini').style.display='none';
+    var im=document.createElement('img'); im.src=r.result; im.alt='Fotografía de Kevin'; box.appendChild(im);
+  };
+  r.readAsDataURL(f);
+});
+</script>
+</body>
+</html>
